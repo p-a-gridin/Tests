@@ -1,6 +1,6 @@
 QT += core gui
 
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets multimedia
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 CONFIG += c++17
 
@@ -28,4 +28,5 @@ contains(ANDROID_TARGET_ARCH,x86) {
         $$PWD/android
 }
 
-RESOURCES +=
+RESOURCES += \
+    tst.qrc
