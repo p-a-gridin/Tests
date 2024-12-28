@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 //        });
 
         WebView webView = findViewById(R.id.webView);
-        webView.loadUrl("https://football-games.ru");
+        webView.loadUrl("https://football-games.ru/fantasy");
 
         // Добавляем возможность использования JavaScript
         webView.getSettings().setJavaScriptEnabled(true);
